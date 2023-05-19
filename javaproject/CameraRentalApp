@@ -1,1 +1,29 @@
+Project Agenda: Build a peer-to-peer camera rental application
 
+Scenario:
+You have been hired by a company called rentmycam.io as a Full Stack Developer with the aim to create a prototype of a camera rental application
+
+*Include the following operations in the application:*
+
+.List a camera along with its brand, model, and per-day rental amount
+.Select a camera from a listing to rent
+.Add or view wallet amount
+.Navigate from the current execution context to the main context
+.Close the application
+
+*Create a welcome screen with the application name and developer details
+.Include options that the user can interact with to access various features of the    application
+*Application features:
+.The user can add a new camera, along with its details, to the existing camera list.
+.The application can display the list of cameras available for rent.
+.The list will include details like the camera brand, model, and per-day rent amount.
+.The user can select a camera to rent for a day.
+.The user will only be allowed to rent the camera if there is sufficient balance in the user’s wallet to fulfil the per-day rent amount. If not, a message is returned.
+
+*Insufficient wallet amount
+.If there is sufficient balance, the amount will be deducted from the wallet.
+.If the list of cameras is empty, an appropriate message is displayed: No Data Present at This Moment.
+.The user can add or view the balance in the wallet through a sub-menu.
+.The user can deposit an amount to increase the wallet balance.
+.A message is displayed to indicate the status of the operation.
+.The application implements concepts like exceptions, collections, and sorting techniques for source code optimization and increased performance.
